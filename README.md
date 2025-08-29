@@ -120,9 +120,8 @@ pip install -r requirements.txt
 * [Google Generative AI](https://ai.google.dev/)
 
 ---
-## 📸 Screenshot
+##  App Screenshot
 
-Here’s how the app looks when running:
+Here’s how the app looks in action:
 
-![App Screenshot](Screenshot-2025-08-29-221201.png)
-
+![App Screenshot](https://github.com/snehangshu2002/Conversational-RAG-with-PDF-Chat-History/blob/main/Screenshot%202025-08-29%20221201.png)
