@@ -44,7 +44,7 @@ with st.sidebar:
 # ------------------- Core -------------------
 if api_key:
     llm = ChatGroq(model_name="llama-3.3-70b-versatile", api_key=api_key)
-    embeddings = GoogleGenerativeAIEmbeddings(model="gemini-embedding-001")
+    embeddings = GoogleGenerativeAIEmbeddings(model="gemini-embedding-001",google_api_key=st.secrets["GOOGLE_API_KEY"])
 
     if "store" not in st.session_state:
         st.session_state.store = {}
@@ -141,5 +141,6 @@ if api_key:
 
 else:
     st.warning("⚠️ Please enter your Groq API Key in the sidebar to continue.")
+
 
 
