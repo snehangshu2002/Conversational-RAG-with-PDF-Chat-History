@@ -23,8 +23,9 @@ The system uses **Groq + LangChain** for reasoning and **Google Generative AI em
 
 Clone the repository:
 ```bash
-git clone [https://github.com/snehangshu2002/conversational-rag-chat.git](https://github.com/snehangshu2002/Conversational-RAG-with-PDF-Chat-History.git)
-cd conversational-rag-chat
+git clone https://github.com/snehangshu2002/Conversational-RAG-with-PDF-Chat-History.git
+cd Conversational-RAG-with-PDF-Chat-History
+
 ````
 
 Create a virtual environment and install dependencies:
