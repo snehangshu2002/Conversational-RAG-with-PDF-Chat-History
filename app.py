@@ -3,7 +3,7 @@ import streamlit as st
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import FAISS
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_groq import ChatGroq
@@ -62,7 +62,7 @@ if api_key:
         # Create vector DB
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=5000, chunk_overlap=500)
         splits = text_splitter.split_documents(documents)
-        vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings)
+        vectorstore = FAISS.from_documents(documents=splits, embedding=embeddings)
         retriever = vectorstore.as_retriever()
 
         contextualize_q_system_prompt = (
@@ -141,4 +141,5 @@ if api_key:
 
 else:
     st.warning("⚠️ Please enter your Groq API Key in the sidebar to continue.")
+
 
