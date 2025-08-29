@@ -23,7 +23,7 @@ The system uses **Groq + LangChain** for reasoning and **Google Generative AI em
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/conversational-rag-chat.git
+git clone https://github.com/snehangshu2002/conversational-rag-chat.git
 cd conversational-rag-chat
 ````
 
@@ -96,7 +96,7 @@ Then open: [http://localhost:8501](http://localhost:8501)
 
 ## 🛠️ Requirements
 
-* Python 3.9+
+* Python 3.10+
 * Streamlit
 * LangChain
 * FAISS
@@ -108,19 +108,6 @@ Install all dependencies via:
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## ⚠️ Notes
-
-* On **Windows**, async event loop fix is included for compatibility.
-* Answers are **restricted to the context** in PDFs. If the answer is missing, the bot replies with **“I don’t know”**.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
 
 ---
 
