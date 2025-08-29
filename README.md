@@ -124,5 +124,5 @@ pip install -r requirements.txt
 
 Here’s how the app looks when running:
 
-![App Screenshot](assets/Screenshot-2025-08-29-221201.png)
+![App Screenshot](Screenshot-2025-08-29-221201.png)
 
