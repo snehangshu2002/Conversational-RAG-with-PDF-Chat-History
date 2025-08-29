@@ -119,4 +119,10 @@ pip install -r requirements.txt
 * [Groq](https://groq.com/)
 * [Google Generative AI](https://ai.google.dev/)
 
+---
+## 📸 Screenshot
+
+Here’s how the app looks when running:
+
+![App Screenshot](assets/Screenshot-2025-08-29-221201.png)
 
