@@ -3,10 +3,9 @@ python-dotenv
 ipykernel
 langchain_community
 pypdf
-bs4
-arxiv
+
 pymupdf
-wikipedia
+
 langchain-text-splitters
 langchain-openai
 chromadb
@@ -17,16 +16,14 @@ langchain_chroma
 langchain-google-genai
 langchain-deepseek
 grandalf
-youtube-transcript-api
+
 pytube
 langchain_groq
 streamlit
 pandas
 numpy
 pdfplumber
-fastapi
-uvicorn
-pydantic
-wikipedia
-arxiv
+
+
+
 
