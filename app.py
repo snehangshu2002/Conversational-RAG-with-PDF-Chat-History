@@ -60,7 +60,7 @@ if api_key:
             documents.extend(docs)
 
         # Create vector DB
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=5000, chunk_overlap=500)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=300)
         splits = text_splitter.split_documents(documents)
         vectorstore = FAISS.from_documents(documents=splits, embedding=embeddings)
         retriever = vectorstore.as_retriever()
@@ -141,6 +141,7 @@ if api_key:
 
 else:
     st.warning("⚠️ Please enter your Groq API Key in the sidebar to continue.")
+
 
 
 
