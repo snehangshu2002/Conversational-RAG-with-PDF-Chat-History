@@ -1,4 +1,4 @@
-````markdown
+
 # 📖 Conversational RAG with PDF + Chat History (Streamlit Chat Style)
 
 This project is a **Retrieval-Augmented Generation (RAG)** chatbot built with **Streamlit**.  
@@ -131,9 +131,4 @@ This project is licensed under the **MIT License**.
 * [Groq](https://groq.com/)
 * [Google Generative AI](https://ai.google.dev/)
 
----
 
-```
-
-Do you want me to also prepare a **`requirements.txt`** file for this app so it’s fully runnable?
-```
